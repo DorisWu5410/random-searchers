@@ -1,0 +1,10 @@
+{"backend_state":"init","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-3afd1ac5-b472-4eb7-9734-6e857213fb0f.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"28538b","input":"while True\n","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":10,"id":"201a41","input":"user_input= input (\"please enter the number of faces of the dice:\")","metadata":{"cocalc":{"outputs":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice:"},"output_type":"stream","value":"10"}}}},"output":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice:"},"output_type":"stream","value":"10"}},"pos":2,"type":"cell"}
+{"cell_type":"code","exec_count":11,"id":"ab2efb","input":"user_input","output":{"0":{"data":{"text/plain":"'10'"},"exec_count":11,"output_type":"execute_result"}},"pos":3,"type":"cell"}
+{"cell_type":"code","exec_count":12,"id":"23a945","input":"user_input=int(user_input)","pos":4,"type":"cell"}
+{"cell_type":"code","exec_count":14,"id":"3431da","input":"random.randint(1,user_input)","output":{"0":{"data":{"text/plain":"1"},"exec_count":14,"output_type":"execute_result"}},"pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":8,"id":"a21d3b","input":"import random","pos":0,"type":"cell"}
+{"cell_type":"code","exec_count":9,"id":"1e2432","input":"random.randint(0,10)","output":{"0":{"data":{"text/plain":"1"},"exec_count":9,"output_type":"execute_result"}},"pos":1,"type":"cell"}
+{"id":0,"time":1657128397877,"type":"user"}
+{"last_load":1657058331654,"type":"file"}

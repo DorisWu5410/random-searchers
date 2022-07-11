@@ -1,0 +1,10 @@
+{"backend_state":"init","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-3afd1ac5-b472-4eb7-9734-6e857213fb0f.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"end":1656712474336,"exec_count":8,"id":"a21d3b","input":"import random","kernel":"python3-ubuntu","pos":0,"start":1656712474331,"state":"done","type":"cell"}
+{"end":1656712476698,"exec_count":9,"id":"1e2432","input":"random.randint(0,10)","kernel":"python3-ubuntu","output":{"0":{"data":{"text/plain":"1"},"exec_count":9}},"pos":1,"start":1656712476685,"state":"done","type":"cell"}
+{"end":1656712557344,"exec_count":10,"id":"201a41","input":"user_input= input (\"please enter the number of faces of the dice:\")","kernel":"python3-ubuntu","output":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice:"},"value":"10"}},"pos":2,"start":1656712478895,"state":"done","type":"cell"}
+{"end":1656712557368,"exec_count":11,"id":"ab2efb","input":"user_input","kernel":"python3-ubuntu","output":{"0":{"data":{"text/plain":"'10'"},"exec_count":11}},"pos":3,"start":1656712557364,"state":"done","type":"cell"}
+{"end":1656712557375,"exec_count":12,"id":"23a945","input":"user_input=int(user_input)","kernel":"python3-ubuntu","pos":4,"start":1656712557373,"state":"done","type":"cell"}
+{"end":1656712633734,"exec_count":14,"id":"3431da","input":"random.randint(1,user_input)","kernel":"python3-ubuntu","output":{"0":{"data":{"text/plain":"1"},"exec_count":14}},"pos":5,"start":1656712633718,"state":"done","type":"cell"}
+{"id":"28538b","input":"while True\n","pos":6,"state":"done","type":"cell"}
+{"id":0,"time":1657058242096,"type":"user"}
+{"last_load":1656711527960,"type":"file"}

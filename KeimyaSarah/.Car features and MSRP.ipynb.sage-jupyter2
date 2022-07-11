@@ -1,0 +1,6 @@
+{"backend_state":"init","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-f569b634-58aa-4e56-bb76-989ffc86d96f.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"end":1656536491922,"exec_count":1,"id":"1d85bc","input":"import numpy as np\nimport pandas as pd","kernel":"python3-ubuntu","pos":0,"start":1656536491694,"state":"done","type":"cell"}
+{"id":"6c053d","input":"","pos":2,"type":"cell"}
+{"id":"d9c426","input":"","kernel":"python3-ubuntu","pos":1,"type":"cell"}
+{"id":0,"time":1657251380114,"type":"user"}
+{"last_load":1657051678134,"type":"file"}

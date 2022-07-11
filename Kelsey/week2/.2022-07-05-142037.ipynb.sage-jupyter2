@@ -1,0 +1,4 @@
+{"backend_state":"running","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-6fc9c511-9ff3-452d-999b-0810082f7289.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"end":1657056051837,"exec_count":1,"id":"37558c","input":"import pandas as pd","kernel":"python3-ubuntu","pos":0,"start":1657056051657,"state":"done","type":"cell"}
+{"id":"69b29f","input":"df = pd.read_csv(\"NKI_cleaned.csv\")","pos":1,"type":"cell"}
+{"last_load":1657056043776,"type":"file"}

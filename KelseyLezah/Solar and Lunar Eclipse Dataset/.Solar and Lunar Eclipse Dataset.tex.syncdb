@@ -1,0 +1,1 @@
+{"key":"build_command","value":["latexmk","-pdf","-f","-g","-bibtex","-deps","-synctex=1","-interaction=nonstopmode","-output-directory=/tmp/05ee1b6f1c0aefe3eeae165957d81a9b9e8afe63","Solar and Lunar Eclipse Dataset.tex"]}
