@@ -85,5 +85,5 @@
 {"cell_type":"markdown","id":"eebe69","input":"Read in your data into a pandas dataframe by replacing the `filename` variable with your file's path. You can also use the current code below to work on a mpg dataset, where the target variable we are predicting is **miles per gallon** based on other car features. \n\n> We should choose two columns that we want to run regresssion on. Use the `.head()` function to decide which columns would be best!\n\n","metadata":{"id":"m4-2ySg9W0Fw"},"pos":3,"type":"cell"}
 {"cell_type":"markdown","id":"f3d38d","input":"### Split the data\nOur model should ignore 20% of data points to use for testing so it doesn't just memorize the data. We need to make sure there are no missing data points before continuing.","metadata":{"id":"g5Zk8_6ksLur"},"pos":38,"type":"cell"}
 {"cell_type":"markdown","id":"fdc0e4","input":"### Creating and Fitting","metadata":{"id":"e1m-wKeYsFEl"},"pos":60,"type":"cell"}
-{"id":0,"time":1657215371909,"type":"user"}
-{"last_load":1657254071826,"type":"file"}
+{"id":0,"time":1657649025490,"type":"user"}
+{"last_load":1657645809933,"type":"file"}

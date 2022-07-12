@@ -1,0 +1,5 @@
+{"backend_state":"running","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-9baad20c-9bf6-4720-9433-4598de68a229.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"end":1657646301746,"exec_count":1,"id":"b858f8","input":"# import libraries \nimport numpy as np\nimport matplotlib.pyplot as plt","kernel":"python3-ubuntu","pos":0,"start":1657646301737,"state":"done","type":"cell"}
+{"id":"dab385","input":"","pos":1,"type":"cell"}
+{"id":0,"time":1657646322622,"type":"user"}
+{"last_load":1657646279555,"type":"file"}

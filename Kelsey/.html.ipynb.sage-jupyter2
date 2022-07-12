@@ -1,0 +1,5 @@
+{"backend_state":"running","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-0c0b8758-0902-45a8-95ba-32f8354a7994.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
+{"exec_count":1,"id":"8e3d07","input":"<!DOCTYPE html>\n\n<html>\n\n    <head>\n    \n    </head>\n    \n    <body>\n    \n        <h1>\n          This is heading1\n        </h1>\n    </body>\n\n</html>","kernel":"python3-ubuntu","output":{"0":{"ename":"SyntaxError","evalue":"invalid syntax (<ipython-input-1-1327729f0c77>, line 1)","traceback":["\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-1327729f0c77>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    <!DOCTYPE html>\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"]}},"pos":0,"state":"done","type":"cell"}
+{"id":"85d802","input":"","pos":1,"type":"cell"}
+{"id":0,"time":1657560146670,"type":"user"}
+{"last_load":1657559913487,"type":"file"}

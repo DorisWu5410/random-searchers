@@ -1,4 +1,5 @@
-{"backend_state":"running","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-6fc9c511-9ff3-452d-999b-0810082f7289.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","trust":true,"type":"settings"}
-{"end":1657056051837,"exec_count":1,"id":"37558c","input":"import pandas as pd","kernel":"python3-ubuntu","pos":0,"start":1657056051657,"state":"done","type":"cell"}
-{"id":"69b29f","input":"df = pd.read_csv(\"NKI_cleaned.csv\")","pos":1,"type":"cell"}
-{"last_load":1657056043776,"type":"file"}
+{"backend_state":"init","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-6fc9c511-9ff3-452d-999b-0810082f7289.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.10"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"69b29f","input":"df = pd.read_csv(\"NKI_cleaned.csv\")","pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":1,"id":"37558c","input":"import pandas as pd","pos":0,"type":"cell"}
+{"id":0,"time":1657646002286,"type":"user"}
+{"last_load":1657645826704,"type":"file"}

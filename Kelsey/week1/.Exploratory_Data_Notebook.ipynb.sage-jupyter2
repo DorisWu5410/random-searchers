@@ -70,5 +70,5 @@
 {"cell_type":"markdown","id":"f5cfaa","input":"## Loading Data <a class=\"anchor\" id=\"Load\"></a>\n- It is best practice keeping this section clean so you know every piece of data you are importing\n- You will run into errors if you try and reference data before you have loaded it\n- Keeping data in a 'Data' folder is best for organization too","pos":7,"type":"cell"}
 {"cell_type":"markdown","id":"f65ad2","input":"One of my favorite ways to investigate a dataframe is by using highlighting. <br> Here is a quick example of how to highlight based on how the value compares to the average. <br>\nThese functions are a bit confusing because they are meant to be used by the pandas Apply function. <br> Read more here: https://www.datacamp.com/community/tutorials/pandas-apply <br> It is a way to check each row and do 'something' based on some values.","pos":55,"type":"cell"}
 {"cell_type":"markdown","id":"f8846a","input":"We can see that there are a few state_codes that don't have state names, we can manually add those.\n<br>We'll make a function for this and add it to the top.","pos":26,"type":"cell"}
-{"id":0,"time":1656451691297,"type":"user"}
-{"last_load":1656608319167,"type":"file"}
+{"id":0,"time":1657564964099,"type":"user"}
+{"last_load":1657564964086,"type":"file"}

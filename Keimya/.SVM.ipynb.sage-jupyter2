@@ -52,5 +52,5 @@
 {"cell_type":"markdown","id":"636898","input":"**SVM \\(Support Vector Machine\\):** supervised machine learning model that uses classification algorithm for two\\-group classification problems.\n\n","pos":0,"type":"cell"}
 {"cell_type":"markdown","id":"64122e","input":"<u>**Time Recurrence**</u>\n","pos":5,"type":"cell"}
 {"cell_type":"markdown","id":"c69ef0","input":"**Random Forest:** a machine learning technique that’s used to solve regression and classification problems. It utilizes ensemble learning, which is a technique that combines many classifiers to provide solutions to complex problems.\n","pos":32,"type":"cell"}
-{"id":0,"time":1657518428418,"type":"user"}
-{"last_load":1657518428253,"type":"file"}
+{"id":0,"time":1657655376133,"type":"user"}
+{"last_load":1657519670166,"type":"file"}

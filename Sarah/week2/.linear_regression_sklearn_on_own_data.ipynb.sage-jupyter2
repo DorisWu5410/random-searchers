@@ -134,5 +134,5 @@
 {"cell_type":"markdown","id":"a99f38","input":"Read in your data into a pandas dataframe by replacing the `filename` variable with your file's path. You can also use the current code below to work on a mpg dataset, where the target variable we are predicting is **miles per gallon** based on other car features. \n\n> We should choose two columns that we want to run regresssion on. Use the `.head()` function to decide which columns would be best!\n\n","metadata":{"id":"m4-2ySg9W0Fw"},"pos":3,"type":"cell"}
 {"cell_type":"markdown","id":"cfb574","input":"Linear regression naturally works best on highly correlated data, so I'm going to create a heatmap to see which variables are correlated! \n\n**Data Splitting**\n\n","metadata":{"id":"J3L_hb0Ou4sn"},"pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"d9f26f","input":"# Data Loading, Cleaning, and Setup\n\n","metadata":{"id":"JlrQHpg8a-sI"},"pos":2,"type":"cell"}
-{"id":0,"time":1657294986366,"type":"user"}
-{"last_load":1657294986129,"type":"file"}
+{"id":0,"time":1657647549311,"type":"user"}
+{"last_load":1657647307282,"type":"file"}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content=""/>
+        <meta name="author" content="" />
+        <title>Predicting Breast Cancer Survival Rate</title>
+        <!-- Favicon-->
+<!--         <link rel="icon" type="image/x-icon" href="./bloodtest_breastcancer.png" /> -->
+<!--         <img src= "./bloodtest_breastcancer.png" width = 100% height = 400pt> -->
+        <!-- Font Awesome icons (free version)-->
+<!--         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script> -->
+        <!-- Google fonts-->
+<!--         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
+<!--         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" /> -->
+        <!-- Core theme CSS (includes Bootstrap)-->
+<!--         <link href="css/styles.css" rel="stylesheet" /> -->
+<!--     </head> -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Predicting Breast Cancer Survival Rate</title>
+        <link rel="icon" type="image/x-icon" href="./bloodtest_breastcancer.png"/>
+        <img src= "./bloodtest_breastcancer.png" width = 100% height = 450pt>
+        <!-- Core theme CSS (includes Bootstrap) -->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+  
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top" style="color:#FF96A7">Navigation Bar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#DataExplore">Data Exploration</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#machine">Machine Learning</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--         Header -->
+         <header >
+            <div class="container px-4 text-center">
+                <h1 style="background-color: #FF96A7;" style="font-family: Cursive" class="fw-bolder">Predicting Breast Cancer Survival Rate</h1>
+                <p class="lead"></p>
+<!--                 <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a> -->
+            </div>
+        </header>  
+      
+<!--         <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Predicting Breast Cancer Survival Rate</div>
+                <div class="masthead-heading text-uppercase">The Avocado Value Optimizer</div>
+<!--                 <a class="btn btn-primary btn-xl text-uppercase" href="#about">About Us</a> -->
+            </div>
+        </header>
+      
+      
+      
+      
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">About our product</h2>
+                        <p class="lead">With the use of a dataset from NKI, our team worked together on a product that helps estimate the survival rate of a patient. This is done with the help of things such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on those factors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="DataExplore">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Data Exploration</h2>
+                        <p class="lead">Here you will find various visualizations that pertain to our dataset. These graphs explore things like the relationship between time recurrence and survival rate, treatment types to survival, and age to treatment, just to name a few.</p>
+                      
+                   
+                      <br>
+             
+                      <iframe src = "./pink.html" width = 550pt height = 400pt></iframe>
+                  </div>
+                  <p>   
+                    This graph explores the relationship between time recurrence and a patient's survival rate. The x-axis is time recurrence and the y-axis is survival. This graph shows that there's a positive correlation between time recurrence and a patient's survival rate.
+                  </p>
+                  <br><br>
+                  <iframe src = "./scatter.html" width = 600pt height = 500pt></iframe>
+                  <p>
+                     This graph explores the relationships between survival, time recurrence, and age. With this, it shows that there's a positive correlation between some of those variables. 
+                  </p>
+                   <iframe src = "./chemo.html" width = 600pt height = 500pt><iframe>
+                     
+                     </iframe>
+                </div>
+        </section>
+      
+        <section class="bg-light" id="machine">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Machine Learning</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                      
+                      <br>
+                      <h3 style="color:#FF96A7">Linear Regression</h3>
+                      <p class="lead">Linear Regression is a system to predict and model the relationship between multiple variables. In our data set, we used linear regression to predict the relationship between survival and time recurrence. Using this, the mean average value (MAE) was calculated to find the average value of these data points and analyze the variability of data. Our MAE was about 8.5559. </p>
+                      <br>
+                      <img src = https://cocalc1.ai-camp.dev/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/raw/.smc/jupyter/blobs/a.png?sha1=a1a7db4d3b2da9dc3eff9a278bccdebc2be7a448&attempts=0 width = 550pt>
+                      <br>
+                      <br>
+                      
+                      <h4 style="color:#FF96A7">SVM</h4>
+                      <br>
+                         <img src = "./SVM.png" width = 600pt>
+                      <br> <br>
+                      <p class="lead"> Here we have a confusion matrix which is a type of support vector machine. A confusion matrix is a table that is used to define and display the performance of a classification algorithm. For this matrix, the x-values were age and time recurrence, and the target variable, which is the variable we were trying to predict, was survival rate. Overall, this matrix shows that after training the algorithm it was able to have an accuracy of 80% because out of the 55 values given, it was able to predict 44 correctly. 
+</p>
+                      
+                      <h4 style="color:#FF96A7">Random Forest</h4>
+                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                      
+                      
+                      
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+      
+      <section class="bg-light" id="conclusion">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Conclusion</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+      
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Our Team</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
