@@ -1,39 +1,40 @@
-{"backend_state":"running","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-4b9a3a3e-4cc1-4f35-825d-6155aeeeed40.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"busy","trust":true,"type":"settings"}
-{"exec_count":3,"id":"5a305c","input":"user_input = input(\"please enter the number of faces of the dice: \")","kernel":"python3-ubuntu","output":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice: "}}},"pos":2,"start":1657733960258,"state":"busy","type":"cell"}
-{"id":"04e9f2","input":"class Michael:\n    def __init__(self, mood):\n        self.age = 40\n        self.gender = \"male\"\n        self.diploma = \"PHD in standford\"\n        self.mood_today = mood\n    \n    def sleep(self):\n        print(\"Michael falls asleep\")\n        \n   \n    def eat(self, food):\n        print(\"Michael eats \" + food)","kernel":"python3-ubuntu","pos":11,"state":"run","type":"cell"}
-{"id":"064ddd","input":"random.randint(1, user_input)","kernel":"python3-ubuntu","pos":5,"state":"run","type":"cell"}
-{"id":"22d2df","input":"","pos":17,"type":"cell"}
-{"id":"2d5ebf","input":"michael_instance1.eat(\"hamburger\")","kernel":"python3-ubuntu","pos":16,"state":"run","type":"cell"}
-{"id":"324b4f","input":"user_input = int(input(\"enter num of faces\"))","kernel":"python3-ubuntu","pos":20.4375,"state":"run","type":"cell"}
-{"id":"38fcd8","input":"","pos":20.4833984375,"type":"cell"}
-{"id":"3a174b","input":"","pos":20.484375,"type":"cell"}
-{"id":"424aff","input":"michael_instance1.age","kernel":"python3-ubuntu","pos":13,"state":"run","type":"cell"}
-{"id":"48d236","input":"","pos":20.96875,"type":"cell"}
-{"id":"50ec9e","input":"dice1.number_of_face","kernel":"python3-ubuntu","pos":20.25,"state":"run","type":"cell"}
-{"id":"5ccf34","input":"class dice:\n    def __init__(self, num):\n        self.number_of_face = num\n    \n    def roll(self):\n        roll_number = random.randint(1, self.number_of_face)\n        return roll_number\n","kernel":"python3-ubuntu","pos":19,"state":"run","type":"cell"}
-{"id":"644e42","input":"import random","kernel":"python3-ubuntu","pos":18,"state":"run","type":"cell"}
-{"id":"680aca","input":"","pos":21,"type":"cell"}
-{"id":"69b359","input":"while True:\n    user_input = input(\"please enter the number of faces of the dice: \")\n    user_input = int(user_input)\n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","kernel":"python3-ubuntu","pos":6,"state":"run","type":"cell"}
-{"id":"69c35f","input":"michael_instance1.mood_today","kernel":"python3-ubuntu","pos":14,"state":"run","type":"cell"}
-{"id":"6e51b1","input":"user_input","kernel":"python3-ubuntu","pos":3,"state":"run","type":"cell"}
-{"id":"73cc94","input":"","pos":20.9375,"type":"cell"}
-{"id":"755fa8","input":"random.randint(0,10)","kernel":"python3-ubuntu","pos":1,"state":"run","type":"cell"}
-{"id":"852bef","input":"","pos":20.482421875,"type":"cell"}
-{"id":"875afa","input":"import random\n\nwhile True:\n    while True:\n        try: \n            user_input = int(input(\"please enter the number of faces of the dice: \"))\n        except:\n            continue;\n        if user_input > 0:\n            break;\n            \n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","kernel":"python3-ubuntu","pos":9,"state":"run","type":"cell"}
-{"id":"99af34","input":"","pos":20.48388671875,"type":"cell"}
-{"id":"9d623c","input":"user_input = int(user_input)","kernel":"python3-ubuntu","pos":4,"state":"run","type":"cell"}
-{"id":"a37283","input":"","pos":8,"type":"cell"}
-{"id":"a444a2","input":"","pos":20.48046875,"type":"cell"}
-{"id":"a6e41a","input":"dice2.roll()","kernel":"python3-ubuntu","pos":20.4765625,"state":"run","type":"cell"}
-{"id":"b38002","input":"michael_instance1 = Michael(\"happy\")","kernel":"python3-ubuntu","pos":12,"state":"run","type":"cell"}
-{"id":"bae977","input":"","pos":10,"type":"cell"}
-{"id":"bf822a","input":"dice1 = dice(10)","kernel":"python3-ubuntu","pos":20,"state":"run","type":"cell"}
-{"id":"ca3d7d","input":"","pos":20.75,"type":"cell"}
-{"id":"d16c48","input":"dice1.roll()","kernel":"python3-ubuntu","pos":20.375,"state":"run","type":"cell"}
-{"id":"d367dd","input":"while True:\n    while True:\n        try:\n            user_input = int(input(\"please enter the number of faces\"))\n        except:\n            continue\n        if user_input > 0:\n            break\n\n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","kernel":"python3-ubuntu","pos":7,"state":"run","type":"cell"}
-{"id":"e2b798","input":"","pos":20.5,"type":"cell"}
-{"id":"e65e2f","input":"import random","kernel":"python3-ubuntu","pos":0,"state":"run","type":"cell"}
-{"id":"f62942","input":"","pos":20.875,"type":"cell"}
-{"id":"f64071","input":"michael_instance1.sleep()","kernel":"python3-ubuntu","pos":15,"state":"run","type":"cell"}
-{"id":"f6653d","input":"dice2 = dice(user_input)","pos":20.46875,"type":"cell"}
-{"last_load":1657733931996,"type":"file"}
+{"backend_state":"init","connection_file":"/projects/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/.local/share/jupyter/runtime/kernel-4b9a3a3e-4cc1-4f35-825d-6155aeeeed40.json","kernel":"python3-ubuntu","kernel_error":"","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.10"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"04e9f2","input":"class Michael:\n    def __init__(self, mood):\n        self.age = 40\n        self.gender = \"male\"\n        self.diploma = \"PHD in standford\"\n        self.mood_today = mood\n    \n    def sleep(self):\n        print(\"Michael falls asleep\")\n        \n   \n    def eat(self, food):\n        print(\"Michael eats \" + food)","pos":11,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"064ddd","input":"random.randint(1, user_input)","pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"22d2df","input":"","pos":17,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2d5ebf","input":"michael_instance1.eat(\"hamburger\")","pos":16,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"324b4f","input":"user_input = int(input(\"enter num of faces\"))","pos":23,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"38fcd8","input":"","pos":28,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3a174b","input":"","pos":30,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"424aff","input":"michael_instance1.age","pos":13,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"48d236","input":"","pos":35,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"50ec9e","input":"dice1.number_of_face","pos":21,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5ccf34","input":"class dice:\n    def __init__(self, num):\n        self.number_of_face = num\n    \n    def roll(self):\n        roll_number = random.randint(1, self.number_of_face)\n        return roll_number\n","pos":19,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"644e42","input":"import random","pos":18,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"680aca","input":"","pos":36,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"69b359","input":"while True:\n    user_input = input(\"please enter the number of faces of the dice: \")\n    user_input = int(user_input)\n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"69c35f","input":"michael_instance1.mood_today","pos":14,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"6e51b1","input":"user_input","pos":3,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"73cc94","input":"","pos":34,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"755fa8","input":"random.randint(0,10)","pos":1,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"852bef","input":"","pos":27,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"875afa","input":"import random\n\nwhile True:\n    while True:\n        try: \n            user_input = int(input(\"please enter the number of faces of the dice: \"))\n        except:\n            continue;\n        if user_input > 0:\n            break;\n            \n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","pos":9,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"99af34","input":"","pos":29,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9d623c","input":"user_input = int(user_input)","pos":4,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a37283","input":"","pos":8,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a444a2","input":"","pos":26,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a6e41a","input":"dice2.roll()","pos":25,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b38002","input":"michael_instance1 = Michael(\"happy\")","pos":12,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bae977","input":"","pos":10,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bf822a","input":"dice1 = dice(10)","pos":20,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ca3d7d","input":"","pos":32,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d16c48","input":"dice1.roll()","pos":22,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d367dd","input":"while True:\n    while True:\n        try:\n            user_input = int(input(\"please enter the number of faces\"))\n        except:\n            continue\n        if user_input > 0:\n            break\n\n    roll = random.randint(1, user_input)\n    print(\"the number you get is \" + str(roll))\n    \n    ctn = input(\"enter exit to quit and else to continue: \")\n    \n    if ctn == \"exit\":\n        break","pos":7,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e2b798","input":"","pos":31,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e65e2f","input":"import random","pos":0,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f62942","input":"","pos":33,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f64071","input":"michael_instance1.sleep()","pos":15,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f6653d","input":"dice2 = dice(user_input)","pos":24,"type":"cell"}
+{"cell_type":"code","exec_count":3,"id":"5a305c","input":"user_input = input(\"please enter the number of faces of the dice: \")","metadata":{"cocalc":{"outputs":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice: "},"output_type":"stream"}}}},"output":{"0":{"name":"input","opts":{"password":false,"prompt":"please enter the number of faces of the dice: "},"output_type":"stream"}},"pos":2,"type":"cell"}
+{"id":0,"time":1657832455963,"type":"user"}
+{"last_load":1657832455528,"type":"file"}

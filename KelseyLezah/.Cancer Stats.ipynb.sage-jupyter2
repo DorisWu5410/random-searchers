@@ -64,5 +64,5 @@
 {"cell_type":"code","exec_count":95,"id":"841868","input":"import plotly.express as px","pos":61,"type":"cell"}
 {"cell_type":"code","exec_count":96,"id":"a754d4","input":"px.imshow(df_matrix)","output":{"0":{"data":{"iframe":"a183ff1121e97209451004dd659e34df30cde7f5"},"exec_count":96,"output_type":"execute_result"}},"pos":62,"type":"cell"}
 {"cell_type":"code","exec_count":99,"id":"c724cc","input":"px.imshow(df_matrix, labels = dict(colors=\"Avg. Survival rate\"))","output":{"0":{"data":{"iframe":"6716e7f239f764347331bb2afe6a319396b40505"},"exec_count":99,"output_type":"execute_result"}},"pos":63,"type":"cell"}
-{"id":0,"time":1657734629121,"type":"user"}
+{"id":0,"time":1657821680327,"type":"user"}
 {"last_load":1657815539169,"type":"file"}

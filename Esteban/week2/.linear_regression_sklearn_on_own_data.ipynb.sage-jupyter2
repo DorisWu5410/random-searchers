@@ -42,5 +42,5 @@
 {"cell_type":"markdown","id":"9c184f","input":"### Creating and Fitting","metadata":{"id":"e1m-wKeYsFEl"},"pos":25,"type":"cell"}
 {"cell_type":"markdown","id":"a07c79","input":"# Linear regression using SKLearn on your own Data!\n\nThis should look familiar... we now are going to use linear regression on some of our own features. I recommend walking through the code below first, then importing your dataset and working through the same problem with your data!\n\n","metadata":{"id":"K_X2fB9ta-rv"},"pos":0,"type":"cell"}
 {"cell_type":"markdown","id":"ef14db","input":"# SVM & Random Forest\n\n","metadata":{"id":"2OixzlOot-U6"},"pos":35,"type":"cell"}
-{"id":0,"time":1657519644040,"type":"user"}
+{"id":0,"time":1657834810260,"type":"user"}
 {"last_load":1657519644077,"type":"file"}
