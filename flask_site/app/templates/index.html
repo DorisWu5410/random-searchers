@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content=""/>
+        <meta name="author" content="" />
+        <title>Predicting Breast Cancer Survival Rate</title>
+        <!-- Favicon-->
+<!--         <link rel="icon" type="image/x-icon" href="./bloodtest_breastcancer.png" /> -->
+<!--         <img src= "./bloodtest_breastcancer.png" width = 100% height = 400pt> -->
+        <!-- Font Awesome icons (free version)-->
+<!--         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script> -->
+        <!-- Google fonts-->
+<!--         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> -->
+<!--         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" /> -->
+        <!-- Core theme CSS (includes Bootstrap)-->
+<!--         <link href="css/styles.css" rel="stylesheet" /> -->
+<!--     </head> -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Predicting Breast Cancer Survival Rate</title>
+        <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='bloodtest_breastcancer.png')}}"/>
+        <img src= "{{url_for('static', filename='bloodtest_breastcancer.png')}}" width = 100% height = 450pt>
+        <!-- Core theme CSS (includes Bootstrap) -->
+        <link href="{{url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    </head>
+  
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top" style="color:#FF96A7">Navigation Bar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#DataExplore">Data Exploration</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#machine">Machine Learning</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--         Header -->
+         <header >
+            <div class="container px-4 text-center">
+                <h1 style="background-color: #FF96A7;" style="font-family: Cursive" class="fw-bolder">Predicting Breast Cancer Survival Rate</h1>
+            </div>
+        </header>  
+      
+<!--         <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Predicting Breast Cancer Survival Rate</div>
+                <div class="masthead-heading text-uppercase">The Avocado Value Optimizer</div>
+<!--                 <a class="btn btn-primary btn-xl text-uppercase" href="#about">About Us</a> -->
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">About our product</h2>
+                        <p class="lead">With the use of a data set from NKI, our team worked together on a product that helps estimate the survival rate of a breast-cancer patient. This is done with the help of models such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on those factors. <br> <br> Our mission is to assist breast cancer patients by offering a clear, accessible, and simple-to-understand website that examines data provided by the user to estimate survivability rates and displays common treatment options. Our product can potentially make it possible for doctors and patients to individually customize screening and preventative programs, decreasing the likelihood of a late diagnosis. </p>
+                     <img src = "{{url_for('static', filename='2013-BCA-Early-Detection-Logo_PG.jpeg')}}" width = 400pts/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="DataExplore">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Data Exploration</h2>
+                        <p class="lead">Here you will find various visualizations that pertain to our data set. These graphs explore things like the relationship between time recurrence and survival rate, treatment types to survival, and age to treatment, just to name a few.</p>
+                      
+                   
+                      <br>
+                 <head>
+                   <title>HTML Headings</title>
+                      </head> 
+                      <body>
+                        <h3>
+                          
+                          <p style="color:#FF96A7">Scatter Plots
+                            
+                         </p>
+                        </h3>
+                        
+                      
+                         
+                     <iframe src = "{{url_for('static', filename='pink.html')}}" width = 550pt height = 400pt></iframe>
+                  </div>
+                  <p>   
+                    This graph explores the relationship between time recurrence and a patient's survival rate. The x-axis is time recurrence and the y-axis is survival. This graph shows that there's a positive correlation between time recurrence and a patient's survival rate.
+                  </p>
+                  <br><br>
+                  <iframe src = "{{url_for('static', filename='./scatter.html')}}" width = 600pt height = 500pt></iframe>
+                  <p>
+                     This graph explores the relationships between survival, time recurrence, and age. With this, it shows that there's a positive correlation between some of those variables. 
+                  </p>
+                  <br>
+                   <iframe src = "{{url_for('static', filename='./agetimerecurrence.html')}}" width = 600pt height = 500pt></iframe>
+                     <br>
+                  <p>
+                    This graph displays the relationship between age and time recurrence. Those in older age groups were more likely to have a recurrence of breast cancer than those in younger groups.
+                  </p>
+                  <br>
+                  <iframe src = "{{url_for('static', filename='./agesurvival.html')}}" width = 600pt height = 500pt></iframe>
+                     <br>
+                  <p>
+                    This graph displays the relationship between age and survival. People across all age groups had a decent survival rate; however, the survival rate did seem to increase among older populations.
+                  </p>
+                  <h5 style="color:#CF4C74">
+                    Common Treatments
+                  </h5>
+                  <iframe src = "{{url_for('static', filename='./chemo.html')}}" width = 600pt height = 500pt></iframe>
+                     <br>
+                     <p> This is a graph showing the relationship between time recurrence and survival while also taking one of the common treatments for breast cancer, chemo, into account. With this, it shows a positive correlation between those variables, which means that chemo can be an effective treatment. </p>
+                     <br>
+                  <iframe src = "{{url_for('static', filename='./hormonal.html')}}" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    This graph shows the relationship between time recurrence and survival, while also taking hormonal treatments into account. With this, a positive correlation was shown, meaning that hormonal treatments can be quite effective.
+                  </p>
+                  <br>
+                  <iframe src = "{{url_for('static', filename='./amp.html')}}" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    Above is a visualization of the relationship between survival, time recurrence, and amputation—which is is another common treatment for breast cancer. The positive correlation in this graph indicates that amputation can also be a good treatment plan.
+                  </p>
+                  <iframe src = "{{url_for('static', filename='./histtype.html')}}" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    Above is a visualization of the relationship between survival, time recurrence, and histtype. Histtype stands for <a href = "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/histologic-grade">histological type</a>, which is a description of a tumor based on how abnormal the cancer cells and tissue look under a microscope as well as how quickly the cancer cells are likely to grow and spread. With this, histological type can also be a helpful thing to take into account when deciding what treatment plan would be the most effective.
+                  </p>
+                </div>
+              </div>
+          </div>
+        </section>
+      
+        <section class="bg-light" id="machine">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Machine Learning</h2>
+                        <p class="lead">Our product uses machine learning modules to make predictions about survivability rates using patient data. These modules include Linear Regression, a Supported Vector Machine, and Random Forest Classification.  </p>
+                      
+                      <br>
+                      <h3 style="color:#FF96A7">Linear Regression</h3>
+                      <p class="lead">Linear Regression is a system to predict and model the relationship between multiple variables. In our data set, we used linear regression to predict the relationship between survival and time recurrence. Using this, the mean average value (MAE) was calculated to find the average value of these data points and analyze the variability of data. Our MAE was about 8.5559. </p>
+                      <br>
+                      <img src = https://cocalc1.ai-camp.dev/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/raw/.smc/jupyter/blobs/a.png?sha1=a1a7db4d3b2da9dc3eff9a278bccdebc2be7a448&attempts=0 width = 550pt>
+                      <br>
+                      <br>
+                      
+                      <h4 style="color:#FF96A7">SVM</h4>
+                      <br>
+                         <img src = "{{url_for('static', filename='./SVM.png')}}" width = 600pt>
+                      <br> <br>
+                      <p class="lead"> Here we have a confusion matrix which is a type of support vector machine. A confusion matrix is a table that is used to define and display the performance of a classification algorithm. For this matrix, the x-values were age and time recurrence, and the target variable, which is the variable we were trying to predict, was survival rate. Overall, this matrix shows that after training the algorithm it was able to have an accuracy of 80% because out of the 55 values given, it was able to predict 44 correctly. 
+</p>
+                      
+                      <h4 style="color:#FF96A7">Random Forest</h4>
+                      <p class="lead">A Random Forest based model achieves maximum performance on the training data set when evaluated using tenfold cross validation for the complete gene expression.
+This classifier structures the data into numerous trees and obtains a final result i.e., whether a person is at risk of having recurrence of breast cancer or not. This may aid clinicians in identifying high risk patients, making treatment decisions and can potentially improve individual outcomes.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+      
+      <section class="bg-light" id="conclusion">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Conclusion</h2>
+                        <p class="lead">Overall, our team has learned a lot while working on this project. In just two weeks, our group came a long way to assemble this product, especially considering that the majority of us had no prior coding expertise. We are confident that our product will benefit individuals and provide breast cancer patients with a resource they can utilize to learn more about their diagnosis and offer peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="try-the-model">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Try the Model</h2>
+                        <br>
+                        <form>
+                          <div class="form-group">
+                              <label for="inputCity">Recurrence Rate</label>
+                              <input type="text" class="form-control" id="inputCity">
+                          </div> 
+                          <br>
+                          <div class="form-group">
+                              <label for="inputCity">Age</label>
+                              <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <br>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="color:#FF96A7">Our Team</h2>
+                        <p class="lead">Our team consists of high-school students who, over the course of three weeks, learned how to use python to build an A.I. that we believe will help people in a positive way. This website and A.I. was built by Kelsey Stallard, Keimya Pennington, Esteban Grisalez, Sarah Son, and Mohammed Abdullah, with the help of our teacher Doris Wu. We had almost no experience with coding or web design, but we were able to learn and develop the skills necessary to create this website and do what we can to help patients with breast cancer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Random Searchers 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

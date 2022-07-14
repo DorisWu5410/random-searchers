@@ -49,8 +49,6 @@
          <header >
             <div class="container px-4 text-center">
                 <h1 style="background-color: #FF96A7;" style="font-family: Cursive" class="fw-bolder">Predicting Breast Cancer Survival Rate</h1>
-                <p class="lead"></p>
-<!--                 <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a> -->
             </div>
         </header>  
       
@@ -59,19 +57,14 @@
                 <div class="masthead-subheading">Predicting Breast Cancer Survival Rate</div>
                 <div class="masthead-heading text-uppercase">The Avocado Value Optimizer</div>
 <!--                 <a class="btn btn-primary btn-xl text-uppercase" href="#about">About Us</a> -->
-            </div>
-        </header>
-      
-      
-      
-      
         <!-- About section-->
         <section id="about">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">About our product</h2>
-                        <p class="lead">With the use of a dataset from NKI, our team worked together on a product that helps estimate the survival rate of a patient. This is done with the help of things such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on those factors.</p>
+                        <p class="lead">With the use of a data set from NKI, our team worked together on a product that helps estimate the survival rate of a breast-cancer patient. This is done through the use of models such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on those factors. <br> <br> Our mission is to assist breast cancer patients by offering a clear, accessible, and simple-to-understand website that examines data provided by the user to estimate survivability rates and displays common treatment options. Our product can potentially make it possible for doctors and patients to individually customize screening and preventative programs, decreasing the likelihood of a late diagnosis. </p>
+                     <img src = "./2013-BCA-Early-Detection-Logo_PG.jpeg" width = 400pts/>
                     </div>
                 </div>
             </div>
@@ -82,12 +75,24 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">Data Exploration</h2>
-                        <p class="lead">Here you will find various visualizations that pertain to our dataset. These graphs explore things like the relationship between time recurrence and survival rate, treatment types to survival, and age to treatment, just to name a few.</p>
+                        <p class="lead">Here you will find various visualizations that pertain to our data set. These graphs explore things like the relationship between time recurrence and survival rate, treatment types to survival, and age to treatment, just to name a few.</p>
                       
                    
                       <br>
-             
-                      <iframe src = "./pink.html" width = 550pt height = 400pt></iframe>
+                 <head>
+                   <title>HTML Headings</title>
+                      </head> 
+                      <body>
+                        <h3>
+                          
+                          <p style="color:#FF96A7">Scatter Plots
+                            
+                         </p>
+                        </h3>
+                        
+                      
+                           
+                     <iframe src = "./pink.html" width = 550pt height = 400pt></iframe>
                   </div>
                   <p>   
                     This graph explores the relationship between time recurrence and a patient's survival rate. The x-axis is time recurrence and the y-axis is survival. This graph shows that there's a positive correlation between time recurrence and a patient's survival rate.
@@ -97,10 +102,44 @@
                   <p>
                      This graph explores the relationships between survival, time recurrence, and age. With this, it shows that there's a positive correlation between some of those variables. 
                   </p>
-                   <iframe src = "./chemo.html" width = 600pt height = 500pt><iframe>
-                     
-                     </iframe>
+                  <br>
+                   <iframe src = "./agetimerecurrence.html" width = 600pt height = 500pt></iframe>
+                     <br>
+                  <p>
+                    This graph displays the relationship between age and time recurrence. Those in older age groups were more likely to have a recurrence of breast cancer than those in younger groups.
+                  </p>
+                  <br>
+                  <iframe src = "./agesurvival.html" width = 600pt height = 500pt></iframe>
+                     <br>
+                  <p>
+                    This graph displays the relationship between age and survival. People across all age groups had a decent survival rate; however, the survival rate did seem to increase among older populations.
+                  </p>
+                  <h5 style="color:#CF4C74">
+                    Common Treatments
+                  </h5>
+                  <iframe src = "./chemo.html" width = 600pt height = 500pt></iframe>
+                     <br>
+                     <p> This is a graph showing the relationship between time recurrence and survival while also taking one of the common treatments for breast cancer, chemo, into account. With this, it shows a positive correlation between those variables, which means that chemo can be an effective treatment. </p>
+                     <br>
+                  <iframe src = "./hormonal.html" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    This graph shows the relationship between time recurrence and survival, while also taking hormonal treatments into account. With this, a positive correlation was shown, meaning that hormonal treatments can be quite effective.
+                  </p>
+                  <br>
+                  <iframe src = "./amp.html" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    Above is a visualization of the relationship between survival, time recurrence, and amputation—which is is another common treatment for breast cancer. The positive correlation in this graph indicates that amputation can also be a good treatment plan.
+                  </p>
+                  <iframe src = "./histtype.html" width = 600pt height = 500pt></iframe>
+                  <br>
+                  <p>
+                    Above is a visualization of the relationship between survival, time recurrence, and histtype. Histtype stands for <a href = "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/histologic-grade">histological type</a>, which is a description of a tumor based on how abnormal the cancer cells and tissue look under a microscope as well as how quickly the cancer cells are likely to grow and spread. With this, histological type can also be a helpful thing to take into account when deciding what treatment plan would be the most effective.
+                  </p>
                 </div>
+              </div>
+          </div>
         </section>
       
         <section class="bg-light" id="machine">
@@ -108,7 +147,7 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">Machine Learning</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                        <p class="lead">Our product uses machine learning modules to make predictions about survivability rates using patient data. These modules include Linear Regression, a Supported Vector Machine, and Random Forest Classification.  </p>
                       
                       <br>
                       <h3 style="color:#FF96A7">Linear Regression</h3>
@@ -126,10 +165,8 @@
 </p>
                       
                       <h4 style="color:#FF96A7">Random Forest</h4>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                      
-                      
-                      
+                      <p class="lead">A Random Forest based model achieves maximum performance on the training data set when evaluated using tenfold cross validation for the complete gene expression.
+This classifier structures the data into numerous trees and obtains a final result i.e., whether a person is at risk of having recurrence of breast cancer or not. This may aid clinicians in identifying high risk patients, making treatment decisions and can potentially improve individual outcomes.</p>
                     </div>
                     
                 </div>
@@ -141,27 +178,25 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">Conclusion</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                        <p class="lead">Overall, our team has learned a lot while working on this project. In just two weeks, our group came a long way to assemble this product, especially considering that the majority of us had no prior coding expertise. We are confident that our product will benefit individuals and provide breast cancer patients with a resource they can utilize to learn more about their diagnosis and offer peace of mind.</p>
                     </div>
                 </div>
             </div>
         </section>
-      
-      
         <!-- Contact section-->
         <section id="contact">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">Our Team</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+                        <p class="lead">Our team consists of high-school students who, over the course of three weeks, learned how to use python to build an A.I. that we believe will help people in a positive way. This website and A.I. was built by Kelsey Stallard, Keimya Pennington, Esteban Grisalez, Sarah Son, and Mohamed Abdullah, with the help of our teacher Doris Wu. We had almost no experience with coding or web design, but we were able to learn and develop the skills necessary to create this website and build this AI.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Random Searchers 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
