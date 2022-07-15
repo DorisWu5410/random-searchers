@@ -63,7 +63,7 @@
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">About our product</h2>
-                        <p class="lead">With the use of a data set from NKI, our team worked together on a product that helps estimate the survival rate of a breast-cancer patient. This is done through the use of models such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on those factors. <br> <br> Our mission is to assist breast cancer patients by offering a clear, accessible, and simple-to-understand website that examines data provided by the user to estimate survivability rates and displays common treatment options. Our product can potentially make it possible for doctors and patients to individually customize screening and preventative programs, decreasing the likelihood of a late diagnosis. </p>
+                        <p class="lead">With the use of a data set from NKI, our team worked together on a product that helps estimate the survival rate of a breast-cancer patient. This is done through the use of models such as SVM's and random forest classification. In addition, our product also recommends treatment plans based on factors from our dataset. <br> <br> Our mission is to assist breast cancer patients by offering a clear, accessible, and simple-to-understand website that examines data provided by the user to estimate survivability rates and displays common treatment options. Our product can potentially make it possible for doctors and patients to individually customize screening and preventative programs, decreasing the likelihood of a late diagnosis. </p>
                      <img src = "./2013-BCA-Early-Detection-Logo_PG.jpeg" width = 400pts/>
                     </div>
                 </div>
@@ -164,8 +164,12 @@
 </p>
                       <br><br>
                       <h4 style="color:#FF96A7">Random Forest</h4>
-                      <p class="lead">A Random Forest based model achieves maximum performance on the training data set when evaluated using tenfold cross validation for the complete gene expression.
-This classifier structures the data into numerous trees and obtains a final result i.e., whether a person is at risk of having recurrence of breast cancer or not. This may aid clinicians in identifying high risk patients, making treatment decisions and can potentially improve individual outcomes.</p>
+                      <p class="lead">
+                        We worked with an Sklearn breast cancer data set to build a random forest classification model that classifies breast cancer patients as either “low” or “high” survival rate. After preforming simple EDA to determine the most important features in the data set, analyzing the feature importance of various selected features, and testing different sizes of random forests, we obtained a final model with an accuracy of 88.7%!</p>
+                      
+
+                         <img src = "./tree.png" width = 600pt>
+                      <br> <br>
                     </div>
                     
                 </div>
@@ -189,6 +193,7 @@ This classifier structures the data into numerous trees and obtains a final resu
                     <div class="col-lg-8">
                         <h2 style="color:#FF96A7">Our Team</h2>
                         <p class="lead">Our team consists of high-school students who, over the course of three weeks, learned how to use python to build an A.I. that we believe will help people in a positive way. This website and A.I. was built by Kelsey Stallard, Keimya Pennington, Esteban Grisalez, Sarah Son, and Mohamed Abdullah, with the help of our teacher Doris Wu. We had almost no experience with coding or web design, but we were able to learn and develop the skills necessary to create this website and build this AI.</p>
+                      
                     </div>
                 </div>
             </div>

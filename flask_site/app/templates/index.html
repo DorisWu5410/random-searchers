@@ -163,10 +163,21 @@
                       <br> <br>
                       <p class="lead"> Here we have a confusion matrix which is a type of support vector machine. A confusion matrix is a table that is used to define and display the performance of a classification algorithm. For this matrix, the x-values were age and time recurrence, and the target variable, which is the variable we were trying to predict, was survival rate. Overall, this matrix shows that after training the algorithm it was able to have an accuracy of 80% because out of the 55 values given, it was able to predict 44 correctly. 
 </p>
+                      <br><br>
                       
                       <h4 style="color:#FF96A7">Random Forest</h4>
+                      
                       <p class="lead">A Random Forest based model achieves maximum performance on the training data set when evaluated using tenfold cross validation for the complete gene expression.
 This classifier structures the data into numerous trees and obtains a final result i.e., whether a person is at risk of having recurrence of breast cancer or not. This may aid clinicians in identifying high risk patients, making treatment decisions and can potentially improve individual outcomes.</p>
+                     
+               
+                      
+                      
+                      <p class="lead">
+                        We worked with an Sklearn breast cancer data set to build a random forest classification model that classifies breast cancer patients as either “low” or “high” survival rate. After preforming simple EDA to determine the most important features in the data set, analyzing the feature importance of various selected features, and testing different sizes of random forests, we obtained a final model with an accuracy of 88.7%!</p>
+                      
+                      <img src = "{{url_for('static', filename='./tree.png')}}" width = 600pt>
+                      
                     </div>
                     
                 </div>

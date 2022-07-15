@@ -11,4 +11,248 @@
 bash: cd..: command not found
 ]0;~/random-searchers/flask_site[01;34m~/random-searchers/flask_site[00m$  [Kcd ..
 ]0;~/random-searchers[01;34m~/random-searchers[00m$ git add -1[KA
-\]0;~/random-searchers[01;34m~/random-searchers[00m$ \[K
+\]0;~/random-searchers[01;34m~/random-searchers[00m$ \[Kgit add -A
+]0;~/random-searchers[01;34m~/random-searchers[00m$ git add -A[K[K[K[K[K[Kcommit -m ""t"[1P"J"u"l"1"4"[C[C[C
+[master e461287] Jul14
+ 20 files changed, 4387 insertions(+), 858 deletions(-)
+ create mode 100644 .2022-07-14-174746.term-0.term
+ create mode 100644 2022-07-14-174746.term
+ rewrite Keimya/.SVM.ipynb.sage-jupyter2 (85%)
+ create mode 100644 KelseyLezah/.predictions.ipynb.sage-jupyter2
+ create mode 100644 KelseyLezah/predictions.ipynb
+ rewrite Sarah/week3/.dice_roller.ipynb.sage-jupyter2 (99%)
+ create mode 100644 flask_site/app/.2022-07-14-144758.term-0.term
+ create mode 100644 flask_site/app/2022-07-14-144758.term
+ rewrite flask_site/app/__pycache__/main.cpython-38.pyc (93%)
+ create mode 100644 flask_site/app/static/NKI_cleaned.csv
+]0;~/random-searchers[01;34m~/random-searchers[00m$ git push
+Username for 'https://github.com': DorisWu5410
+Password for 'https://DorisWu5410@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/DorisWu5410/random-searchers.git/'
+]0;~/random-searchers[01;34m~/random-searchers[00m$ git push
+Username for 'https://github.com': DorisWu5410
+Password for 'https://DorisWu5410@github.com': 
+Enumerating objects: 62, done.
+Counting objects:   1% (1/62)Counting objects:   3% (2/62)Counting objects:   4% (3/62)Counting objects:   6% (4/62)Counting objects:   8% (5/62)Counting objects:   9% (6/62)Counting objects:  11% (7/62)Counting objects:  12% (8/62)Counting objects:  14% (9/62)Counting objects:  16% (10/62)Counting objects:  17% (11/62)Counting objects:  19% (12/62)Counting objects:  20% (13/62)Counting objects:  22% (14/62)Counting objects:  24% (15/62)Counting objects:  25% (16/62)Counting objects:  27% (17/62)Counting objects:  29% (18/62)Counting objects:  30% (19/62)Counting objects:  32% (20/62)Counting objects:  33% (21/62)Counting objects:  35% (22/62)Counting objects:  37% (23/62)Counting objects:  38% (24/62)Counting objects:  40% (25/62)Counting objects:  41% (26/62)Counting objects:  43% (27/62)Counting objects:  45% (28/62)Counting objects:  46% (29/62)Counting objects:  48% (30/62)Counting objects:  50% (31/62)Counting objects:  51% (32/62)Counting objects:  53% (33/62)Counting objects:  54% (34/62)Counting objects:  56% (35/62)Counting objects:  58% (36/62)Counting objects:  59% (37/62)Counting objects:  61% (38/62)Counting objects:  62% (39/62)Counting objects:  64% (40/62)Counting objects:  66% (41/62)Counting objects:  67% (42/62)Counting objects:  69% (43/62)Counting objects:  70% (44/62)Counting objects:  72% (45/62)Counting objects:  74% (46/62)Counting objects:  75% (47/62)Counting objects:  77% (48/62)Counting objects:  79% (49/62)Counting objects:  80% (50/62)Counting objects:  82% (51/62)Counting objects:  83% (52/62)Counting objects:  85% (53/62)Counting objects:  87% (54/62)Counting objects:  88% (55/62)Counting objects:  90% (56/62)Counting objects:  91% (57/62)Counting objects:  93% (58/62)Counting objects:  95% (59/62)Counting objects:  96% (60/62)Counting objects:  98% (61/62)Counting objects: 100% (62/62)Counting objects: 100% (62/62), done.
+Delta compression using up to 2 threads
+Compressing objects:   2% (1/34)Compressing objects:   5% (2/34)Compressing objects:   8% (3/34)Compressing objects:  11% (4/34)Compressing objects:  14% (5/34)Compressing objects:  17% (6/34)Compressing objects:  20% (7/34)Compressing objects:  23% (8/34)Compressing objects:  26% (9/34)Compressing objects:  29% (10/34)Compressing objects:  32% (11/34)Compressing objects:  35% (12/34)Compressing objects:  38% (13/34)Compressing objects:  41% (14/34)Compressing objects:  44% (15/34)Compressing objects:  47% (16/34)Compressing objects:  50% (17/34)Compressing objects:  52% (18/34)Compressing objects:  55% (19/34)Compressing objects:  58% (20/34)Compressing objects:  61% (21/34)Compressing objects:  64% (22/34)Compressing objects:  67% (23/34)Compressing objects:  70% (24/34)Compressing objects:  73% (25/34)Compressing objects:  76% (26/34)Compressing objects:  79% (27/34)Compressing objects:  82% (28/34)Compressing objects:  85% (29/34)Compressing objects:  88% (30/34)Compressing objects:  91% (31/34)Compressing objects:  94% (32/34)Compressing objects:  97% (33/34)Compressing objects: 100% (34/34)Compressing objects: 100% (34/34), done.
+Writing objects:   2% (1/36)Writing objects:   5% (2/36)Writing objects:   8% (3/36)Writing objects:  11% (4/36)Writing objects:  13% (5/36)Writing objects:  16% (6/36)Writing objects:  19% (7/36)Writing objects:  22% (8/36)Writing objects:  25% (9/36)Writing objects:  27% (10/36)Writing objects:  30% (11/36)Writing objects:  33% (12/36)Writing objects:  36% (13/36)Writing objects:  41% (15/36)Writing objects:  41% (15/36), 5.37 MiB | 4.42 MiB/sWriting objects:  44% (16/36), 5.37 MiB | 4.42 MiB/sWriting objects:  47% (17/36), 5.37 MiB | 4.42 MiB/sWriting objects:  50% (18/36), 5.37 MiB | 4.42 MiB/sWriting objects:  52% (19/36), 5.37 MiB | 4.42 MiB/sWriting objects:  55% (20/36), 5.37 MiB | 4.42 MiB/sWriting objects:  58% (21/36), 5.37 MiB | 4.42 MiB/sWriting objects:  61% (22/36), 5.37 MiB | 4.42 MiB/sWriting objects:  63% (23/36), 5.37 MiB | 4.42 MiB/sWriting objects:  66% (24/36), 5.37 MiB | 4.42 MiB/sWriting objects:  69% (25/36), 5.37 MiB | 4.42 MiB/sWriting objects:  72% (26/36), 5.37 MiB | 4.42 MiB/sWriting objects:  75% (27/36), 5.37 MiB | 4.42 MiB/sWriting objects:  77% (28/36), 5.37 MiB | 4.42 MiB/sWriting objects:  80% (29/36), 5.37 MiB | 4.42 MiB/sWriting objects:  83% (30/36), 5.37 MiB | 4.42 MiB/sWriting objects:  86% (31/36), 5.37 MiB | 4.42 MiB/sWriting objects:  88% (32/36), 5.37 MiB | 4.42 MiB/sWriting objects:  91% (33/36), 5.37 MiB | 4.42 MiB/sWriting objects:  94% (34/36), 5.37 MiB | 4.42 MiB/sWriting objects:  97% (35/36), 5.37 MiB | 4.42 MiB/sWriting objects: 100% (36/36), 5.37 MiB | 4.42 MiB/sWriting objects: 100% (36/36), 7.54 MiB | 5.76 MiB/s, done.
+Total 36 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/22)[Kremote: Resolving deltas:   4% (1/22)[Kremote: Resolving deltas:   9% (2/22)[Kremote: Resolving deltas:  13% (3/22)[Kremote: Resolving deltas:  18% (4/22)[Kremote: Resolving deltas:  22% (5/22)[Kremote: Resolving deltas:  27% (6/22)[Kremote: Resolving deltas:  31% (7/22)[Kremote: Resolving deltas:  36% (8/22)[Kremote: Resolving deltas:  40% (9/22)[Kremote: Resolving deltas:  45% (10/22)[Kremote: Resolving deltas:  50% (11/22)[Kremote: Resolving deltas:  54% (12/22)[Kremote: Resolving deltas:  59% (13/22)[Kremote: Resolving deltas:  63% (14/22)[Kremote: Resolving deltas:  68% (15/22)[Kremote: Resolving deltas:  72% (16/22)[Kremote: Resolving deltas:  77% (17/22)[Kremote: Resolving deltas:  81% (18/22)[Kremote: Resolving deltas:  86% (19/22)[Kremote: Resolving deltas:  90% (20/22)[Kremote: Resolving deltas:  95% (21/22)[Kremote: Resolving deltas: 100% (22/22)[Kremote: Resolving deltas: 100% (22/22), completed with 18 local objects.[K
+To https://github.com/DorisWu5410/random-searchers.git
+   57c8bc9..e461287  master -> master
+]0;~/random-searchers[01;34m~/random-searchers[00m$ ]0;~/random-searchers[01;34m~/random-searchers[00m$ [K]0;~/random-searchers[01;34m~/random-searchers[00m$ cd Ap[K[K[K flask_site
+]0;~/random-searchers/flask_site[01;34m~/random-searchers/flask_site[00m$ cd app
+]0;~/random-searchers/flask_site/app[01;34m~/random-searchers/flask_site/app[00m$ cd templates
+]0;~/random-searchers/flask_site/app/templates[01;34m~/random-searchers/flask_site/app/templates[00m$ cd [K[K[Kcd ..
+]0;~/random-searchers/flask_site/app[01;34m~/random-searchers/flask_site/app[00m$ python3 -m main
+Try to open
+
+    https://cocalc1.ai-camp.dev/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12347/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://cocalc1.ai-camp.dev/0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-486-907
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:46] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:10:46] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:12:08] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:12:08] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 17:12:34] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:12:35] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:31] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:32] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:33] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:33] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:40] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[36mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 304 -
+127.0.0.1 - - [15/Jul/2022 17:13:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:45] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:48] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:48] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:13:58] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:13:58] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:14:08] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:14:10] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:14:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:15:14] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:15:41] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:15:42] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:15:49] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:03] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:04] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:05] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:05] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:53] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:16:53] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:21:09] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:21:09] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:24:33] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 206 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/bloodtest_breastcancer.png HTTP/1.1[0m" 206 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 206 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:24:34] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 206 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/2013-BCA-Early-Detection-Logo_PG.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/SVM.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/tree.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/scatter.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/pink.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agetimerecurrence.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:43] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/agesurvival.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/chemo.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:44] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/hormonal.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/amp.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 17:36:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/static/histtype.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 18:24:00] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 18:24:01] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 18:26:32] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 18:29:05] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 18:29:06] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 19:17:11] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:17:11] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 19:17:40] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:17:41] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 19:18:00] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:18:00] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 19:18:16] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:18:16] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 19:18:49] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:18:49] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 19:20:15] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:20:15] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 19:20:37] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 19:20:37] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 19:57:02] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 20:26:10] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 20:33:20] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 20:33:52] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 20:47:18] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 20:47:18] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 20:53:45] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 20:53:46] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 20:54:01] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 20:54:01] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 21:12:53] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 21:12:54] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [15/Jul/2022 21:13:47] "[37mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 21:13:48] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+127.0.0.1 - - [15/Jul/2022 21:23:22] "[37mPOST /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [15/Jul/2022 21:23:22] "[33mGET /0f214c2c-3a4f-4d36-bdfe-4d58d7af3d54/port/12347/js/scripts.js HTTP/1.1[0m" 404 -
